@@ -64,7 +64,9 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
+  # gem "rspec-rails"
 end
 
 gem 'mountable_app', path: 'mountable_app'
 gem 'full_app', path: 'full_app'
+gem 'mountable_second_app', path: 'mountable_second_app'

@@ -6,13 +6,12 @@ require "rails/all"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-require_relative "hello_rack_app"
-
-
-module RoutesApp
+module Dummy
   class Application < Rails::Application
-    # Initialize configuration defaults for originally generated Rails version.
-    config.load_defaults 7.1
+    config.load_defaults Rails::VERSION::STRING.to_f
+
+    # For compatibility with applications that use this config
+    config.action_controller.include_all_helpers = false
 
     # Please, add to the `ignore` list any other `lib` subdirectories that do
     # not contain `.rb` files, or that should not be reloaded or eager loaded.
