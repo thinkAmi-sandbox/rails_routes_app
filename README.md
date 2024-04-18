@@ -1,24 +1,19 @@
-# README
+# rails_routes_app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Rails application that defines various options.
 
-Things you may want to cover:
+It is used as a Rails app for testing the `Railroads` plugin for JetBrains IDE.
 
-* Ruby version
+- https://plugins.jetbrains.com/plugin/24076-railroads
+- https://github.com/thinkAmi/railroads
 
-* System dependencies
+Note that controllers are often not defined.
 
-* Configuration
 
-* Database creation
+## Tested Environment
 
-* Database initialization
+- Rails 7.1.3.2
 
-* How to run the test suite
+## Related Blog (Written in Japanese)
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- [routes.rbに色々なルーティングを定義したRailsアプリを作ってみた - メモ的な思考的な](https://thinkami.hatenablog.com/entry/2024/04/18/215030)
